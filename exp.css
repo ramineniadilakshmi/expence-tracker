@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #expense-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #expense-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #expense-table th,
+  #expense-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #expense-table th {
+    background-color: #ddd;
+  }
